@@ -3,8 +3,8 @@
 apiVersion: openliberty.io/v1beta1
 kind: OpenLibertyApplication
 metadata:
-  name: modresorts
+  name: imagereference 
 spec:
   replicas: 1
-  applicationImage: IMAGE_REFERENCE
+  applicationImage: default-route-openshift-image-registry.apps.ocp48.tec.uk.ibm.com/transformationadvisor/modresorts 
   expose: true
